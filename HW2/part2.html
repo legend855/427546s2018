@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Part 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+
+<body>
+
+    <fieldset>
+        <h4>* indicates a required field</h4><br>
+        <form method="POST">
+            <label for="score">Driver Score:*</label>
+            <input type="number" id="score" name="score">
+
+            <input type="button" name="submit" value="Submit" onclick="process_score(); return false">
+        </form>
+    </fieldset>
+    
+
+    <canvas id="canvas" width="800" height="650">Your broswer does not support canvas</canvas>
+    <script src="src/js/2.js"></script>
+</body>
+</html>
